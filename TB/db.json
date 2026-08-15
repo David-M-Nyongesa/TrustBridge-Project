@@ -207,17 +207,17 @@
   "users": [
     {
       "id": 1,
-      "name": "Wanjiru Kamau",
+      "name": "Carlos Muchemi",
       "role": "seeker",
-      "email": "wanjiru@example.com",
+      "email": "c.muchemi@gmail.com",
       "joined": "2026-05-14",
       "password": "demo1234"
     },
     {
       "id": 2,
-      "name": "David Otieno",
+      "name": "David Nyongesa",
       "role": "owner",
-      "email": "d.otieno@example.com",
+      "email": "d.nyongesa@gmail.com",
       "joined": "2025-11-02",
       "password": "demo1234"
     },
