@@ -1,0 +1,294 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "image": "/images/images1.jpg",
+      "type": "house",
+      "title": "2BR apartment, Kilimani",
+      "price": 45000,
+      "priceUnit": "month",
+      "location": "Kilimani, Nairobi",
+      "description": "Spacious 2-bedroom apartment with master ensuite, open-plan kitchen, borehole water and backup generator. Close to Yaya Centre.",
+      "details": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "furnished": false,
+        "parking": true
+      },
+      "ownerId": 2,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-07-02"
+    },
+    {
+      "id": 2,
+      "image": "/images/images2.jpg",
+      "type": "house",
+      "title": "1BR apartment, Roysambu",
+      "price": 18000,
+      "priceUnit": "month",
+      "location": "Roysambu, Nairobi",
+      "description": "Modern 1-bedroom near TRM, tiled floors, prepaid electricity token, 24hr security and CCTV.",
+      "details": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "furnished": false,
+        "parking": false
+      },
+      "ownerId": 2,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-07-15"
+    },
+    {
+      "id": 3,
+      "image": "/images/images3.jpg",
+      "type": "house",
+      "title": "Bedsitter, Juja town",
+      "price": 8500,
+      "priceUnit": "month",
+      "location": "Juja, Kiambu",
+      "description": "Clean bedsitter 5 minutes from JKUAT main gate. Water included, wifi available in the plot.",
+      "details": {
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "furnished": false,
+        "parking": false
+      },
+      "ownerId": 5,
+      "status": "leased",
+      "verified": false,
+      "createdAt": "2026-06-20"
+    },
+    {
+      "id": 4,
+      "image": "/images/images4.jpg",
+      "type": "house",
+      "title": "3BR maisonette, Syokimau",
+      "price": 65000,
+      "priceUnit": "month",
+      "location": "Syokimau, Machakos",
+      "description": "Gated community maisonette with DSQ, own compound, solar water heating. Near the SGR terminus.",
+      "details": {
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "furnished": false,
+        "parking": true
+      },
+      "ownerId": 5,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": 5,
+      "image": "/images/images5.jpg",
+      "type": "car",
+      "title": "Toyota Axio 2017 for Uber/Bolt",
+      "price": 15000,
+      "priceUnit": "week",
+      "location": "Westlands, Nairobi",
+      "description": "Well maintained Axio, 1500cc, low fuel consumption. Comprehensive insurance and PSV compliant. Target-based terms negotiable.",
+      "details": {
+        "make": "Toyota",
+        "model": "Axio",
+        "year": 2017,
+        "transmission": "automatic",
+        "fuelType": "petrol"
+      },
+      "ownerId": 3,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-07-10"
+    },
+    {
+      "id": 6,
+      "image": "/images/images6.jpg",
+      "type": "car",
+      "title": "Mazda Demio 2016, ride-hailing ready",
+      "price": 13000,
+      "priceUnit": "week",
+      "location": "Kasarani, Nairobi",
+      "description": "Demio in great condition, already on the Bolt platform. Weekly remittance, driver handles fuel. Tracker installed.",
+      "details": {
+        "make": "Mazda",
+        "model": "Demio",
+        "year": 2016,
+        "transmission": "automatic",
+        "fuelType": "petrol"
+      },
+      "ownerId": 3,
+      "status": "leased",
+      "verified": true,
+      "createdAt": "2026-06-05"
+    },
+    {
+      "id": 7,
+      "image": "/images/images7.jpg",
+      "type": "car",
+      "title": "Suzuki Alto 2018, economy tier",
+      "price": 10000,
+      "priceUnit": "week",
+      "location": "Embakasi, Nairobi",
+      "description": "660cc Alto, extremely fuel efficient, perfect for Uber ChapChap. New tyres, serviced monthly.",
+      "details": {
+        "make": "Suzuki",
+        "model": "Alto",
+        "year": 2018,
+        "transmission": "manual",
+        "fuelType": "petrol"
+      },
+      "ownerId": 6,
+      "status": "available",
+      "verified": false,
+      "createdAt": "2026-08-08"
+    },
+    {
+      "id": 8,
+      "image": "/images/images8.jpg",
+      "type": "bike",
+      "title": "Boxer 150 for boda/Bolt Boda",
+      "price": 4500,
+      "priceUnit": "week",
+      "location": "Kayole, Nairobi",
+      "description": "Bajaj Boxer 150, 2023 model, logbook available for verification. Rider must have valid licence and reflector jacket.",
+      "details": {
+        "make": "Bajaj",
+        "model": "Boxer 150",
+        "year": 2023,
+        "engineCC": 150
+      },
+      "ownerId": 4,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-07-22"
+    },
+    {
+      "id": 9,
+      "image": "/images/images9.jpg",
+      "type": "bike",
+      "title": "TVS HLX 125, Uber Boda ready",
+      "price": 4000,
+      "priceUnit": "week",
+      "location": "Githurai, Nairobi",
+      "description": "TVS HLX 125 in daily use condition, insurance up to date. Weekly target of KSh 4,000, rider keeps the rest.",
+      "details": {
+        "make": "TVS",
+        "model": "HLX 125",
+        "year": 2022,
+        "engineCC": 125
+      },
+      "ownerId": 4,
+      "status": "available",
+      "verified": false,
+      "createdAt": "2026-08-03"
+    },
+    {
+      "id": 10,
+      "image": "/images/images10.jpg",
+      "type": "bike",
+      "title": "Honda Ace 125, delivery + boda",
+      "price": 5000,
+      "priceUnit": "week",
+      "location": "Rongai, Kajiado",
+      "description": "Honda Ace with carrier rack fitted, ideal for parcel delivery apps and passenger work. Helmet provided.",
+      "details": {
+        "make": "Honda",
+        "model": "Ace 125",
+        "year": 2023,
+        "engineCC": 125
+      },
+      "ownerId": 6,
+      "status": "available",
+      "verified": true,
+      "createdAt": "2026-08-11"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Wanjiru Kamau",
+      "role": "seeker",
+      "email": "wanjiru@example.com",
+      "joined": "2026-05-14",
+      "password": "demo1234"
+    },
+    {
+      "id": 2,
+      "name": "David Otieno",
+      "role": "owner",
+      "email": "d.otieno@example.com",
+      "joined": "2025-11-02",
+      "password": "demo1234"
+    },
+    {
+      "id": 3,
+      "name": "Grace Muthoni",
+      "role": "owner",
+      "email": "grace.m@example.com",
+      "joined": "2026-01-19",
+      "password": "demo1234"
+    },
+    {
+      "id": 4,
+      "name": "Brian Kipchoge",
+      "role": "owner",
+      "email": "briank@example.com",
+      "joined": "2026-03-30",
+      "password": "demo1234"
+    },
+    {
+      "id": 5,
+      "name": "Amina Hassan",
+      "role": "owner",
+      "email": "amina.h@example.com",
+      "joined": "2025-09-08",
+      "password": "demo1234"
+    },
+    {
+      "id": 6,
+      "name": "Peter Njoroge",
+      "role": "owner",
+      "email": "pnjoroge@example.com",
+      "joined": "2026-06-25",
+      "password": "demo1234"
+    },
+    {
+      "id": 7,
+      "name": "Faith Chebet",
+      "role": "seeker",
+      "email": "fchebet@example.com",
+      "joined": "2026-07-12",
+      "password": "demo1234"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": 1,
+      "listingId": 1,
+      "seekerId": 1,
+      "seekerName": "Wanjiru Kamau",
+      "message": "Hi, is the Kilimani apartment still available? I would like to view it this Saturday.",
+      "status": "pending",
+      "createdAt": "2026-08-10"
+    },
+    {
+      "id": 2,
+      "listingId": 5,
+      "seekerId": 7,
+      "seekerName": "Faith Chebet",
+      "message": "I am an approved Bolt driver with 2 years experience. Can we discuss the weekly terms for the Axio?",
+      "status": "pending",
+      "createdAt": "2026-08-12"
+    },
+    {
+      "id": 3,
+      "listingId": 8,
+      "seekerId": 7,
+      "seekerName": "Faith Chebet",
+      "message": "Is the Boxer available for viewing in Kayole? I have a valid licence and my own helmet.",
+      "status": "responded",
+      "createdAt": "2026-08-09"
+    }
+  ]
+}
