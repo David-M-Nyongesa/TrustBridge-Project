@@ -10,7 +10,6 @@ export default function MyListings({ listings, loading, onChanged }) {
 
   async function toggleStatus(listing) {
     await fetch(`http://localhost:3001/listings/${listing.id}`, {
-      // PATCH = partial update: only the fields in the body change.
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
