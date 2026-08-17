@@ -19,7 +19,6 @@ export function useListings(filters = {}) {
       try {
         const params = new URLSearchParams();
         if (type && type !== "all") params.append("type", type);
-        if (ownerId) params.append("ownerId", ownerId);
 
         const res = await fetch(`${API_URL}/listings?${params}`);
         if (!res.ok) throw new Error(`Server responded ${res.status}`);
@@ -31,6 +30,9 @@ export function useListings(filters = {}) {
         }
         if (maxPrice) {
           data = data.filter((l) => l.price <= Number(maxPrice));
+        }
+        if (ownerId) {
+          data = data.filter((l) => String(l.ownerId) === String(ownerId));
         }
 
         if (isActive) setListings(data);
