@@ -93,12 +93,18 @@ TB/
     │   ├── MyListings.jsx   # owner rows: status toggle, delete
     │   └── Inquiries.jsx    # inquiry inbox (owner) / sent list (seeker)
     └── pages/
-        ├── Browse.jsx       # home: filters + grid
-        ├── ListingDetail.jsx# one listing + owner + inquiry
-        ├── PostListing.jsx  # 3-step create form
-        ├── Dashboard.jsx    # role-aware: owner vs seeker views
-        ├── AuthPage.jsx     # login / signup
-        └── About.jsx        # mission + roadmap
+    |   ├── Browse.jsx       # home: filters + grid
+    |   ├── ListingDetail.jsx# one listing + owner + inquiry
+    |   ├── PostListing.jsx  # 3-step create form
+    |   ├── Dashboard.jsx    # role-aware: owner vs seeker views
+    |   ├── AuthPage.jsx     # login / signup
+    |   └── About.jsx        # mission + roadmap
+    |── tests/
+        ├── setup.js
+        ├── formatPrice.test.js # Price formatter (`/mo` vs `/wk`) that feeds the card
+        ├── ListingCard.test.js # The form hook's core rule
+        ├── useForm.test.js     # Fetching, loading/error states, and client-side filtering
+        └── useListings.test.js # Given a listing prop, the card renders the title, location, and formatted price
 ```
  
 ## Custom Hooks
