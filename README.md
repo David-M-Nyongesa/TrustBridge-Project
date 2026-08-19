@@ -140,4 +140,23 @@ to `main`.
 ## Live Demo
  
 [_Add your Vercel/Netlify link here._](https://trustbridge254.netlify.app/)
- 
+
+## Testing
+
+The project ships a small but deliberate test suite.
+Library, 12 tests across 4 files:
+
+```bash
+npm test          # run once
+```
+
+| Test file | What it proves |
+| --- | --- |
+| `formatPrice.test.js` | The price formatter (`/mo` vs `/wk`) that feeds the card, detail page, and dashboard rows. |
+| `useForm.test.js` | The form hook's core rule: `nextStep` is blocked while validation fails, advances when data is valid, `reset` restores initial state. Tested with `renderHook` — no UI needed, because the logic lives in the hook, not the page. |
+| `useListings.test.js` | Fetching, loading/error states, and client-side filtering — with `fetch` mocked, so tests run without JSON Server. Includes a regression test: an `ownerId` stored as the string `"2"` must still match the number `2`. |
+| `ListingCard.test.jsx` | Given a listing prop, the card renders the title, location, and formatted price, and shows the Verified badge only when `verified` is true. |
+
+Tests run against a simulated DOM (jsdom) with the network mocked
+(`vi.stubGlobal("fetch", …)`), and `afterEach(cleanup)` unmounts everything
+between tests so each one starts from a blank world.
